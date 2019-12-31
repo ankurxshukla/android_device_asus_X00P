@@ -319,13 +319,13 @@ vendor/firmware/a506_zap.mdt|2945f21b47cf35bf22d8cb68e937c34ea64212c0
 vendor/firmware/a530_pfp.fw|448f9db8271fefb08348cbc50409e8e95bd93f78
 vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
 
-# Listen - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
-vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8937.so|0e716aae6fe6fc4a8b9553953765f64614647e7d
-vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
-vendor/lib/libsmwrapper.so|58dcf09adcbe6c851417e1569a120ac2e5e64a9d
-vendor/lib/vendor.qti.voiceprint@1.0.so|03abd08ee38f604999f4c05fc5394349a7dc08c1
-vendor/lib64/hw/sound_trigger.primary.msm8953.so:vendor/lib64/hw/sound_trigger.primary.msm8937.so|857963f4e9724dd1bd2d4a4bfe28341109010e96
-vendor/lib64/vendor.qti.voiceprint@1.0.so|fa9a1150c56be6cdb3c10401d69618556526b4fa
+# Listen - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8937.so|b47051e826382b19894501471eb629173df6a967
+vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
+vendor/lib/libsmwrapper.so|1ab31b5378265784145defa47d50435029cf5f57
+vendor/lib/vendor.qti.voiceprint@1.0.so|ad4df37a1240290f2c1d678d751a0401509b343f
+vendor/lib64/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8937.so|62a3b3814deefbb1a83759fea4b6b705af6b36af
+vendor/lib64/vendor.qti.voiceprint@1.0.so|5c3794e4541cc916c03f5a2ba26c6c2f43149d16
 
 # Media - from LA.UM.8.6.r1-02600-89xx.0
 vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
