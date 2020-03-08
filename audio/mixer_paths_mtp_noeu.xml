@@ -1435,7 +1435,7 @@
 
     <path name="voice-tty-hco-handset">
         <ctl name="TTY Mode" value="HCO" />
-        <path name="handset" />
+        <path name="speaker" />
     </path>
 
     <path name="voice-tty-full-headset-mic">
