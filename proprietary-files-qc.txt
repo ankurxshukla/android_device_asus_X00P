@@ -185,10 +185,6 @@ vendor/lib/libwvhidl.so|c22eaee425010cc69ce943d8c65da17fae150f0e
 vendor/bin/fm_qsoc_patches|77f31379d6bf68f2f0b3aa8936150b778c4e89ee
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
 
-# Gatekeeper - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
-vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|fb3693904e3b26250157ab5be21ef977971a3382
-vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|c1b386547234815a0d6116b5e4756de66075cd3f
-
 # GPS - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 vendor/bin/hw/vendor.qti.gnss@1.0-service|049201d8e22064b87eb52df208d8cda7066d140a
 vendor/bin/loc_launcher|23a4470552c0c418662a7d91fa7f593bee767459
