@@ -18,9 +18,9 @@
 
 set -e
 
-DEVICE=mido
-DEVICE_COMMON=msm8953-common
-VENDOR=xiaomi
+DEVICE=X00P
+DEVICE_COMMON=msm8937-common
+VENDOR=asus
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

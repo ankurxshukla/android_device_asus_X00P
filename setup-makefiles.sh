@@ -18,12 +18,12 @@
 
 set -e
 
-INITIAL_COPYRIGHT_YEAR=2017
+INITIAL_COPYRIGHT_YEAR=2020
 
 # Required!
-export DEVICE=mido
-export DEVICE_COMMON=msm8953-common
-export VENDOR=xiaomi
+export DEVICE=X00P
+export DEVICE_COMMON=msm8937-common
+export VENDOR=asus
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

@@ -1,6 +1,3 @@
-#
-# system.prop for mido
-#
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 af.fast_track_multiplier=2 \
