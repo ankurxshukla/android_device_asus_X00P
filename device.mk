@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/asus/X00P
+
 $(call inherit-product, vendor/asus/X00P/X00P-vendor.mk)
 $(call inherit-product, vendor/asus/msm8937-common/msm8937-common-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
