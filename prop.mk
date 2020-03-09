@@ -43,10 +43,14 @@ ro.bluetooth.hfp.ver=1.7
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-camera.display.lmax=1280x720 \
+camera.display.lmax=1440x720 \
+persist.vendor.camera.display.lmax=1440x720 \
 camera.display.umax=1920x1080 \
+persist.vendor.camera.display.umax=1920x1080 \
 camera.lowpower.record.enable=1 \
 media.camera.ts.monotonic=1 \
+vendor.camera.aux.packagelist=org.codeaurora.snapcam \
+vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
 persist.camera.gyro.disable=0 \
 persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
@@ -77,7 +81,7 @@ persist.hwc.enable_vds=1 \
 persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
-ro.sf.lcd_density=420 \
+ro.sf.lcd_density=320 \
 ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
