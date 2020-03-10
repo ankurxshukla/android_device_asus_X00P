@@ -72,10 +72,6 @@ if [ -s "$MY_DIR"/proprietary-files.txt ]; then
     sed -i \
         's/\/system\/etc\//\/vendor\/etc\//g' \
         "$DEVICE_BLOB_ROOT"/vendor/lib/libmmcamera2_sensor_modules.so
-
-    sed -i \
-         "s|/data/misc/camera/cam_socket|/data/vendor/qcam/cam_socket|g" \
-         "$DEVICE_BLOB_ROOT"/vendor/bin/mm-qcamera-daemon
 fi
 
 "$MY_DIR"/setup-makefiles.sh
