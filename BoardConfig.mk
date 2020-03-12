@@ -213,4 +213,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/asus/X00P/BoardConfigVendor.mk
--include vendor/asus/msm8937-common/BoardConfigVendor.mk
