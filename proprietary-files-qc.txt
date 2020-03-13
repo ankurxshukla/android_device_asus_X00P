@@ -260,7 +260,7 @@ vendor/lib/egl/libGLESv1_CM_adreno.so|17bbde3fd2a67234581be29370f45d12f91f1869
 vendor/lib/egl/libGLESv2_adreno.so|6878841e4f7d2383a41fe355eb746311f3890b70
 vendor/lib/egl/libQTapGLES.so|957d9c98f3c29e7bf1da02fedac0789ada49dc70
 vendor/lib/egl/libq3dtools_adreno.so|1d760b6203cdb6cc1ef036ce092f4d7e6e7f3324
-vendor/lib/hw/vulkan.msm8953.so|c24dee59782e94c119e1e6ae00ac05c2d67c3f93
+vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so|c24dee59782e94c119e1e6ae00ac05c2d67c3f93
 vendor/lib/libC2D2.so|c04a5ac1e576f63ebe91aba14bf917ee9e382be0
 vendor/lib/libCB.so|ecb562c1ecb787cbbc8b3f1fd0dc00e9039ebe26
 vendor/lib/libOpenCL.so|dba84cb947a30c269a7e9b324771ef3b89bf4236
@@ -281,7 +281,7 @@ vendor/lib64/egl/libGLESv1_CM_adreno.so|9f8f826f14a769965eb77f2a8d7e273fb45eb89c
 vendor/lib64/egl/libGLESv2_adreno.so|aa87e754bd4ea141fd9594b41c7d61cbf83e3452
 vendor/lib64/egl/libQTapGLES.so|104e9cec67678174b92a698849aa2bcf52ba46ce
 vendor/lib64/egl/libq3dtools_adreno.so|e9e50eb922ce32918eb6e6989286e945e0c8acb3
-vendor/lib64/hw/vulkan.msm8953.so|8c01e237bdc542ca682cb97ce28f264135033fab
+vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/hw/vulkan.msm8937.so|8c01e237bdc542ca682cb97ce28f264135033fab
 vendor/lib64/libC2D2.so|ff2d4947c7924376ff66517461246d238e221e05
 vendor/lib64/libCB.so|8a7c2a7e2834b2f18ba51a861d8b370497f73a05
 vendor/lib64/libOpenCL.so|323c9ba2b67f6e7ec6b14caff8b1082ba2c783a5
@@ -616,12 +616,12 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|936011dbcfd05ea9350f7410bb6f4d69ddd
 
 # Sensors - from LA.UM.8.6.r1-02600-89xx.0
 vendor/bin/sensors.qti|a3e75e6b68125c14f2189945b8ced945b82e05b8
-vendor/lib/hw/activity_recognition.msm8953.so|8775b59a5b99a37eace38f06cb821007bd7c88ae
+vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8937.so|8775b59a5b99a37eace38f06cb821007bd7c88ae
 vendor/lib/libsensor1.so|5bb6c35dabadb59301e870e319b43212154fa12c
 vendor/lib/libsensor_reg.so|db6e00ba09e2d7cb65c070a3aecf374f7ea4cea1
 vendor/lib/libsensor_user_cal.so|5bb430aee52db949f49eff66b193e4fbf6802270
 vendor/lib/sensors.ssc.so|bdb1f587d78722c6b4e5e2f5df86c5dfeb49ccf3
-vendor/lib64/hw/activity_recognition.msm8953.so|19637d97c2cf50a6c7b34d7529f2636198404522
+vendor/lib64/hw/activity_recognition.msm8953.so:vendor/lib64/hw/activity_recognition.msm8937.so|19637d97c2cf50a6c7b34d7529f2636198404522
 vendor/lib64/libsensor1.so|4a63118bc426116643216c5f43f70ce0cd52d537
 vendor/lib64/libsensor_reg.so|b977629681598d927830ed99986e818c01c2d34a
 vendor/lib64/libsensor_user_cal.so|a9cd76f06c02e23cb7f1552aa7d51567259faa47
