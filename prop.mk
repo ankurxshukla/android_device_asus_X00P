@@ -204,3 +204,7 @@ persist.sys.wfd.virtual=0
 # CheckJNI
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.checkjni=1
+
+# Logs
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.init_log_level=7
